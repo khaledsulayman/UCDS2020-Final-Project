@@ -6,6 +6,7 @@ cd snailtrail
 cargo clean
 cargo build
 cargo install --path st2 st2
-export PATH=/home/ubuntu/.cargo/bin:$PATH
-rm init.sh
-
+echo "PATH=\"\$HOME/.cargo/bin:\$PATH\"" >> ~/.profile
+source ~/.profile
+rm ~/init.sh
+st2 -h
