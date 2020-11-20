@@ -1,0 +1,3 @@
+[submodule "snailtrail"]
+	path = snailtrail
+	url = https://github.com/khaledsulayman/snailtrail.git
